@@ -14,7 +14,6 @@ required = [
 setup(
     name='unwrap',
     version=VERSION,
-    packages=['unwrap'],
     url='https://github.com/shaunvxc/unwrap',
     license='MIT',
     author='Shaun Viguerie',
