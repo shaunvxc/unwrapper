@@ -3,7 +3,7 @@
 import os
 from setuptools import setup, find_packages
 
-from unwrap import VERSION
+from unwrapper import VERSION
 
 here = os.path.abspath(os.path.dirname(__file__))
 
@@ -12,16 +12,16 @@ required = [
 ]
 
 setup(
-    name='unwrap',
+    name='unwrapper',
     version=VERSION,
     url='https://github.com/shaunvxc/unwrap',
     license='MIT',
     author='Shaun Viguerie',
     author_email='shaunvig114@gmail.com',
     description='Unwrap JSON responses from callback fns',
-    packages=['unwrap'],
+    packages=['unwrapper'],
     entry_points={
-        'console_scripts': ['unwrap = unwrap.bin:main']
+        'console_scripts': ['unwrap = unwrapper.bin:main']
     },
 
     install_requires=required,
