@@ -27,4 +27,6 @@ print data['b'] # prints 2
  
  `$ curl "SOME CURL REQUEST RETURNING WRAPPED JSON" | unwrap`
  
- 
+###Installation
+
+`$ pip install unwrapper`
