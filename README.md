@@ -20,6 +20,7 @@ import json
 from unwrapper import unwrap
 
 data = json.loads(unwrap("json13123({'a':1, 'b': 2, 'c': 3})"))
+print data['b'] # prints 2
 ```
  
 ####Command Line
