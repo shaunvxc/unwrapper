@@ -21,7 +21,9 @@ from unwrapper import unwrap
 
 data = json.loads(unwrap("json13123({'a':1, 'b': 2, 'c': 3})"))
 ```
- ####Command Line
- `$ CURL *SOME CURL REQUEST RETURNING WRAPPED JSON* | unwrap`
+ 
+####Command Line
+ 
+ `$ curl "SOME CURL REQUEST RETURNING WRAPPED JSON" | unwrap`
  
  
