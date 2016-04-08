@@ -20,5 +20,5 @@ def get_start_symbol(content):
     if content.find('}') > 0 and content.find('{') < content.find('['):
         return '{'
 
-    print "Unable to find start of JSON string"
+    print ("Unable to find start of JSON string")
     return "{"
