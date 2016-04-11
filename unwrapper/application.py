@@ -15,7 +15,7 @@ def unwrap(content):
 def get_start_symbol(content):
     if content.find('[') > 0 and content.find('[') < content.find('{'):
         return '['
-    if content.find('}') > 0 and content.find('{') < content.find('['):
+    if content.find('{') > 0 and content.find('{') < content.find('['):
         return '{'
 
     print ("Unable to find start of JSON string")
