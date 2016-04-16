@@ -3,7 +3,6 @@
 `unwrapper` is a small utility for unwrapping the callback function from an otherwise easily parseable `json` string.
 
 ###Usage
-Simply pass the in the string to be unwrapped:
 * To unwrap the `JSON` from a callback function, and obtain a parsed dictionary:
 ```python
 from unwrapper import unwrap
