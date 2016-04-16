@@ -1,3 +1,3 @@
 from .application import unwrap, unwrap_raw, CannotFindJsonBoundaryError
 
-VERSION = '0.0.6'
+VERSION = '0.0.7'
