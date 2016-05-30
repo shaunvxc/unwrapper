@@ -1,4 +1,4 @@
-# unwrap [![Build Status](https://travis-ci.org/shaunvxc/unwrapper.svg?branch=master)](https://travis-ci.org/shaunvxc/unwrapper) [![PyPI version](https://badge.fury.io/py/unwrapper.svg)](https://badge.fury.io/py/unwrapper)
+# unwrapper [![Build Status](https://travis-ci.org/shaunvxc/unwrapper.svg?branch=master)](https://travis-ci.org/shaunvxc/unwrapper) [![PyPI version](https://badge.fury.io/py/unwrapper.svg)](https://badge.fury.io/py/unwrapper)
 
 `unwrapper` is a small utility for unwrapping the callback function from an otherwise easily parseable `json` string.
 
