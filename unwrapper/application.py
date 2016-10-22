@@ -6,12 +6,19 @@ import json
 
 class CannotFindJsonBoundaryError(Exception):
     def __init__(self):
-        Exception.__init__(self, "Could not find valid start/ending JSON boundaries-- most likely invalid JSON") 
+        Exception.__init__(self, "Could not find valid start/ending JSON boundaries-- most likely invalid JSON")
 
 def unwrap(content):
     """ unwraps the callback and loads the JSON into a dict
     """
     return json.loads(unwrap_raw(content))
+
+
+def loads(content):
+    """ for consistency with json package
+    """
+    return json.loads(unwrap_raw(content))
+
 
 def unwrap_raw(content):
     """ unwraps the callback and returns the raw content
