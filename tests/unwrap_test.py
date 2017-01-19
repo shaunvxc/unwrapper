@@ -3,12 +3,16 @@ from __future__ import unicode_literals
 import sure
 import json
 
-from unwrapper import unwrap, unwrap_raw,  CannotFindJsonBoundaryError
+from unwrapper import unwrap, unwrap_raw, loads, CannotFindJsonBoundaryError
 
 
 def test_basic_unwrap():
     # z = unwrap(u'null({"result":ERROR})')
     unwrap('json13123({"a":1, "b": 2, "c": 3})').should.equal(json.loads('{"a":1, "b": 2, "c": 3}'))
+
+
+def test_loads():
+    loads('json13123({"a":1, "b": 2, "c": 3})').should.equal(json.loads('{"a":1, "b": 2, "c": 3}'))
 
 
 def test_unwrap_list():
