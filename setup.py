@@ -3,8 +3,6 @@
 import os
 from setuptools import setup, find_packages
 
-from unwrapper import VERSION
-
 here = os.path.abspath(os.path.dirname(__file__))
 
 required = [
@@ -13,7 +11,7 @@ required = [
 
 setup(
     name='unwrapper',
-    version=VERSION,
+    version='0.0.8',
     url='https://github.com/shaunvxc/unwrap',
     license='MIT',
     author='Shaun Viguerie',
